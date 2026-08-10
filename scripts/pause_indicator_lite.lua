@@ -1,0 +1,1 @@
+../plugins/ModernZ/extras/pause-indicator-lite/pause_indicator_lite.lua

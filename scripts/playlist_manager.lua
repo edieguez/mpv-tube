@@ -1,0 +1,1 @@
+../plugins/playlist-manager/scripts/playlist_manager.lua

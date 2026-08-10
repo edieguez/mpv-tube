@@ -1,0 +1,1 @@
+../plugins/thumbfast/thumbfast.lua

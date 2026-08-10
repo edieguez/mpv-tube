@@ -1,0 +1,1 @@
+../plugins/mpv-selectformat/selectformat.lua

@@ -1,0 +1,1 @@
+../plugins/ModernZ/extras/open-file/open-file.lua

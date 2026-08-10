@@ -1,0 +1,21 @@
+[submodule "plugins/ModernZ"]
+	path = plugins/ModernZ
+	url = https://github.com/Samillion/ModernZ.git
+[submodule "plugins/perpetual-playlist"]
+	path = plugins/perpetual-playlist
+	url = https://github.com/edieguez/perpetual-playlist.git
+[submodule "plugins/playlist-manager"]
+	path = plugins/playlist-manager
+	url = https://github.com/edieguez/playlist-manager.git
+[submodule "plugins/yas"]
+	path = plugins/yas
+	url = https://github.com/edieguez/yas.git
+[submodule "plugins/ytdl-prefetch"]
+	path = plugins/ytdl-prefetch
+	url = https://github.com/edieguez/ytdl-prefetch.git
+[submodule "plugins/mpv-selectformat"]
+	path = plugins/mpv-selectformat
+	url = https://github.com/demurky/mpv-selectformat.git
+[submodule "plugins/thumbfast"]
+	path = plugins/thumbfast
+	url = https://github.com/po5/thumbfast.git
