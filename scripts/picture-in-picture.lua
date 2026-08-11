@@ -1,0 +1,1 @@
+../plugins/picture-in-picture/scripts/picture-in-picture.lua

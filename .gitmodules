@@ -19,3 +19,6 @@
 [submodule "plugins/thumbfast"]
 	path = plugins/thumbfast
 	url = https://github.com/po5/thumbfast.git
+[submodule "plugins/picture-in-picture"]
+	path = plugins/picture-in-picture
+	url = https://github.com/edieguez/picture-in-picture.git
