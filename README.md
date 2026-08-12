@@ -52,6 +52,7 @@ This file covers getting from a fresh clone to a working install.
    |---|---|
    | `modernz.conf.template` | ModernZ OSC (colors, icon theme, buttons, ...) |
    | `pause_indicator_lite.conf.template` | Pause/play indicator overlay |
+   | `perpetual_playlist.conf.template` | Perpetual playlist (persisted queue, resume position) |
    | `playlist_manager.conf.template` | Playlist manager (`ctrl+v` add, dedupe, ...) |
    | `thumbfast.conf.template` | Seekbar thumbnail previews |
    | `yas.conf.template` | YAS / SponsorBlock — set `user_id` here for stats to persist |
