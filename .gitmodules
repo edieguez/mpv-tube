@@ -22,3 +22,9 @@
 [submodule "plugins/picture-in-picture"]
 	path = plugins/picture-in-picture
 	url = https://github.com/edieguez/picture-in-picture.git
+[submodule "plugins/mpv-remote"]
+	path = plugins/mpv-remote
+	url = https://github.com/edieguez/mpv-remote.git
+[submodule "plugins/podcast-mode"]
+	path = plugins/podcast-mode
+	url = https://github.com/edieguez/podcast-mode.git
