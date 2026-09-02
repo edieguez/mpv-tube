@@ -28,3 +28,6 @@
 [submodule "plugins/podcast-mode"]
 	path = plugins/podcast-mode
 	url = https://github.com/edieguez/podcast-mode.git
+[submodule "plugins/mark-watched"]
+	path = plugins/mark-watched
+	url = https://github.com/edieguez/mark-watched.git

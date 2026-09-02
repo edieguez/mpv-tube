@@ -1,0 +1,1 @@
+../plugins/mark-watched/scripts/mark_watched.lua
