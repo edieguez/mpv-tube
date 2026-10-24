@@ -60,7 +60,12 @@ This file covers getting from a fresh clone to a working install.
    None of these are required to exist — every script falls back to its own
    built-in defaults if its `script-opts/*.conf` is missing. mpv will just
    look and behave differently from the intended setup until they're
-   populated.
+   populated. The templates are symlinks to each plugin's upstream
+   defaults, so one setting has to be changed by hand in your
+   `modernz.conf`: set `playlist_mbtn_left_command=script-binding
+   playlist_manager/select-playlist` so the OSC's playlist button opens
+   playlist-manager's list (titles, search, reorder) like the `p` key does,
+   instead of mpv's bare built-in one.
 
 That's it — no build step, no other dependencies beyond `yt-dlp` being on
 `PATH` (for YouTube/etc. playback) and `mpv` itself.
