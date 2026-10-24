@@ -16,7 +16,7 @@ mpv configured to behave like a dedicated YouTube client, meant to live at
 - **A persistent, perpetual queue** —
   [perpetual-playlist](https://github.com/edieguez/perpetual-playlist)
   saves the full playlist and exact resume position across restarts.
-  `ctrl+v` inside mpv, or `mpv-add <url>` from a terminal (or a browser
+  `ctrl+v` inside mpv, or `mpv-remote play last <url>` from a terminal (or a browser
   extension/shortcut), appends a URL to a running instance the same way
   you'd queue a video on youtube.com, without interrupting what's
   currently playing.
@@ -50,12 +50,15 @@ This file covers getting from a fresh clone to a working install.
 
    | Template | Script it configures |
    |---|---|
+   | `mark_watched.conf.template` | When a YouTube video counts as watched in your account |
    | `modernz.conf.template` | ModernZ OSC (colors, icon theme, buttons, ...) |
    | `pause_indicator_lite.conf.template` | Pause/play indicator overlay |
    | `perpetual_playlist.conf.template` | Perpetual playlist (persisted queue, resume position) |
+   | `picture-in-picture.conf.template` | Picture-in-picture window size and corner |
    | `playlist_manager.conf.template` | Playlist manager (`ctrl+v` add, dedupe, ...) |
    | `thumbfast.conf.template` | Seekbar thumbnail previews |
    | `yas.conf.template` | YAS / SponsorBlock — set `user_id` here for stats to persist |
+   | `ytdl_prefetch.conf.template` | Background yt-dlp prefetch of playlist neighbours |
 
    None of these are required to exist — every script falls back to its own
    built-in defaults if its `script-opts/*.conf` is missing. mpv will just
